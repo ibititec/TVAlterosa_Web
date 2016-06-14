@@ -1,0 +1,9 @@
+D:\Ibititec\CAMPEONATOLD\FutebolLimaDuarte\Campeonato.Dominio\bin\Debug\Campeonato.Dominio.dll
+D:\Ibititec\CAMPEONATOLD\FutebolLimaDuarte\Campeonato.Dominio\bin\Debug\Campeonato.Dominio.pdb
+D:\Ibititec\CAMPEONATOLD\FutebolLimaDuarte\Campeonato.Dominio\obj\Debug\Campeonato.Dominio.csprojResolveAssemblyReference.cache
+D:\Ibititec\CAMPEONATOLD\FutebolLimaDuarte\Campeonato.Dominio\obj\Debug\Campeonato.Dominio.dll
+D:\Ibititec\CAMPEONATOLD\FutebolLimaDuarte\Campeonato.Dominio\obj\Debug\Campeonato.Dominio.pdb
+D:\Ibititec\TVAlterosa_web\FutebolLimaDuarte\Campeonato.Dominio\bin\Debug\Campeonato.Dominio.dll
+D:\Ibititec\TVAlterosa_web\FutebolLimaDuarte\Campeonato.Dominio\bin\Debug\Campeonato.Dominio.pdb
+D:\Ibititec\TVAlterosa_web\FutebolLimaDuarte\Campeonato.Dominio\obj\Debug\Campeonato.Dominio.dll
+D:\Ibititec\TVAlterosa_web\FutebolLimaDuarte\Campeonato.Dominio\obj\Debug\Campeonato.Dominio.pdb

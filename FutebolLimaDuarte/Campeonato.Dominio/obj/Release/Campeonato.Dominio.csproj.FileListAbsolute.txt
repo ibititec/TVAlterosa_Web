@@ -1,0 +1,5 @@
+D:\Ibititec\TVAlterosa_web\FutebolLimaDuarte\Campeonato.Dominio\bin\Release\Campeonato.Dominio.dll
+D:\Ibititec\TVAlterosa_web\FutebolLimaDuarte\Campeonato.Dominio\bin\Release\Campeonato.Dominio.pdb
+D:\Ibititec\TVAlterosa_web\FutebolLimaDuarte\Campeonato.Dominio\obj\Release\Campeonato.Dominio.csprojResolveAssemblyReference.cache
+D:\Ibititec\TVAlterosa_web\FutebolLimaDuarte\Campeonato.Dominio\obj\Release\Campeonato.Dominio.dll
+D:\Ibititec\TVAlterosa_web\FutebolLimaDuarte\Campeonato.Dominio\obj\Release\Campeonato.Dominio.pdb
