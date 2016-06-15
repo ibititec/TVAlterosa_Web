@@ -42,6 +42,7 @@ namespace Campeonato.RepositorioADO
             strQuery += string.Format(" data_partida = '{0}', ", Partida.DataPartida.ToString("yyyy-MM-ddTHH:mm:ss.fff"));
             strQuery += string.Format(" remarcada_partida = '{0}', ", Partida.Remarcada);
             strQuery += string.Format(" rodada = '{0}' ", Partida.Rodada);
+            strQuery += string.Format(" estadio = '{0}' ", Partida.Estadio);
             //strQuery += string.Format(" nova_data_partida = '{0}' ", Partida.DataPartidaRemarcada.ToString("yyyy-MM-ddTHH:mm:ss.fff"));
             strQuery += string.Format(" WHERE Id = {0} ", Partida.Id);
             using (contexto = new Contexto())
@@ -162,7 +163,8 @@ namespace Campeonato.RepositorioADO
                     TimeVisitante = reader["tv_nome"].ToString(),
                     EscudoPequenoMandante = (reader["tm_escudo"].ToString().Equals("") ? "Vazio.jpg" : reader["tm_escudo"].ToString()),
                     EscudoPequenoVisitante = (reader["tv_escudo"].ToString().Equals("") ? "Vazio.jpg" : reader["tv_escudo"].ToString()),
-                    NomeCampeonato = reader["nome_campeonato"].ToString()
+                    Estadio = reader["estadio"].ToString(),
+                    
 
 
                 };

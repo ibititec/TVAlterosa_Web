@@ -6,3 +6,11 @@ D:\Ibititec\TVAlterosa_web\FutebolLimaDuarte\Campeonato.RepositorioADO\bin\Relea
 D:\Ibititec\TVAlterosa_web\FutebolLimaDuarte\Campeonato.RepositorioADO\obj\Release\Campeonato.RepositorioADO.csprojResolveAssemblyReference.cache
 D:\Ibititec\TVAlterosa_web\FutebolLimaDuarte\Campeonato.RepositorioADO\obj\Release\Campeonato.RepositorioADO.dll
 D:\Ibititec\TVAlterosa_web\FutebolLimaDuarte\Campeonato.RepositorioADO\obj\Release\Campeonato.RepositorioADO.pdb
+D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\bin\Release\Campeonato.RepositorioADO.dll.config
+D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\bin\Release\Campeonato.RepositorioADO.dll
+D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\bin\Release\Campeonato.RepositorioADO.pdb
+D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\bin\Release\Campeonato.Dominio.dll
+D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\bin\Release\Campeonato.Dominio.pdb
+D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\obj\Release\Campeonato.RepositorioADO.csprojResolveAssemblyReference.cache
+D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\obj\Release\Campeonato.RepositorioADO.dll
+D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\obj\Release\Campeonato.RepositorioADO.pdb

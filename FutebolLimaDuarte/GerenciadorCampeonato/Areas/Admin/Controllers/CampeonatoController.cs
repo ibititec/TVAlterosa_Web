@@ -239,6 +239,18 @@ namespace Campeonato.UI.WEB.Areas.Admin
             return JsonConvert.SerializeObject(artilheiros, Formatting.Indented);
         }
 
+        public String ObterArtilhariaGeralJson()
+        {
+            var listaArtilheiros = appCampeonato.ArtilhariaPorCampeonatoGeral();
+            Artilheiro artilheiro = new Artilheiro();
+            artilheiro.Nome = " ";
+            artilheiro.NumeroGols = "0";
+            artilheiro.Time = " ";
+            List<Artilheiro> artilheiros = listaArtilheiros.ToList<Artilheiro>();
+            artilheiros.Add(artilheiro);
+            return JsonConvert.SerializeObject(artilheiros, Formatting.Indented);
+        }
+
         public String Noticias()
         {
             var listaNoticias = appNoticia.ListarTodos();

@@ -98,6 +98,12 @@ namespace Campeonato.Aplicacao
             return partida.ListarProximaRodada();
         }
 
+        public IEnumerable<Partida> ListarProximaRodadaJson()
+        {
+            PartidaRepositorioADO partida = new PartidaRepositorioADO();
+            return (IEnumerable<Partida>) partida.ListarProximaRodada();
+        }
+
         public IEnumerable<Partida> ListarProximaRodadaPorBolao(string id)
         {
             PartidaRepositorioADO partida = new PartidaRepositorioADO();

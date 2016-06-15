@@ -181,13 +181,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/13/2016 12:16:54</publishTime>
     </File>
     <File Include="bin/Campeonato.Aplicacao.dll">
-      <publishTime>06/13/2016 20:02:28</publishTime>
+      <publishTime>06/14/2016 22:03:32</publishTime>
     </File>
     <File Include="bin/Campeonato.Dominio.dll">
       <publishTime>06/13/2016 20:02:20</publishTime>
     </File>
     <File Include="bin/Campeonato.RepositorioADO.dll">
-      <publishTime>06/13/2016 16:25:19</publishTime>
+      <publishTime>06/14/2016 21:42:55</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>06/13/2016 12:16:56</publishTime>
@@ -196,7 +196,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/13/2016 12:16:56</publishTime>
     </File>
     <File Include="bin/GerenciadorCampeonato.dll">
-      <publishTime>06/13/2016 20:16:55</publishTime>
+      <publishTime>06/14/2016 22:03:35</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
       <publishTime>06/13/2016 12:16:54</publishTime>
@@ -541,7 +541,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/03/2016 14:15:06</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/13/2016 13:54:34</publishTime>
+      <publishTime>06/14/2016 21:02:49</publishTime>
     </File>
   </ItemGroup>
 </Project>

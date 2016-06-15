@@ -345,5 +345,13 @@ namespace Campeonato.UI.WEB.Areas.Admin
             return JsonConvert.SerializeObject(listaUltimaRodada, Formatting.Indented);
         
         }
+
+        public String ListarProximaRodadaJson()
+        {
+            Rodada rodada = new Rodada();
+            var listaProximaRodada = rodada.ConverterPartidasParaRodada(appPartida.ListarProximaRodadaJson());
+            return JsonConvert.SerializeObject(listaProximaRodada, Formatting.Indented);
+
+        }
     }
 }

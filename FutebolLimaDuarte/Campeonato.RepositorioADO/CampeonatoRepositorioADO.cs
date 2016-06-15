@@ -150,6 +150,22 @@ namespace Campeonato.RepositorioADO
 
         }
 
+        //ESSA ARTILHARIA SERA PARA TODOS OS CAMPEONATOS
+        public IEnumerable<Artilheiro> ArtilhariaPorCampeonatoGeral()
+        {
+            using (contexto = new Contexto())
+            {
+                var strQuery = @" SELECT t.Nome Nome, ar.numero_gols Numero_Gols, tm.Nome Time  FROM artilharia ar
+                                    INNER JOIN t_jogador t on (t.id = ar.id_jogador)
+                                    INNER JOIN times tm on (tm.id = ar.id_time)";
+                strQuery += @" ORDER BY ar.numero_gols desc";
+                var retornoDataReader = contexto.ExecutaComandoComRetorno(strQuery);
+                return TransformaReaderEmListaDeObjetoArtilharia(retornoDataReader);
+            }
+
+        }
+
+
         public List<Noticia> Noticias()
         {
             using (contexto = new Contexto())

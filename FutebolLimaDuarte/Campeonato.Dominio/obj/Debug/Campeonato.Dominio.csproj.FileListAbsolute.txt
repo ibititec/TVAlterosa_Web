@@ -7,3 +7,7 @@ D:\Ibititec\TVAlterosa_web\FutebolLimaDuarte\Campeonato.Dominio\bin\Debug\Campeo
 D:\Ibititec\TVAlterosa_web\FutebolLimaDuarte\Campeonato.Dominio\bin\Debug\Campeonato.Dominio.pdb
 D:\Ibititec\TVAlterosa_web\FutebolLimaDuarte\Campeonato.Dominio\obj\Debug\Campeonato.Dominio.dll
 D:\Ibititec\TVAlterosa_web\FutebolLimaDuarte\Campeonato.Dominio\obj\Debug\Campeonato.Dominio.pdb
+D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\bin\Debug\Campeonato.Dominio.dll
+D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\bin\Debug\Campeonato.Dominio.pdb
+D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\obj\Debug\Campeonato.Dominio.dll
+D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\obj\Debug\Campeonato.Dominio.pdb

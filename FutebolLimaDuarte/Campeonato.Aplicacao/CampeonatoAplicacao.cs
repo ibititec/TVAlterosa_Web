@@ -57,6 +57,12 @@ namespace Campeonato.Aplicacao
             return campADO.ArtilhariaPorCampeonato(id);
         }
 
+        public IEnumerable<Artilheiro> ArtilhariaPorCampeonatoGeral()
+        {
+            CampeonatoRepositorioADO campADO = new CampeonatoRepositorioADO();
+            return campADO.ArtilhariaPorCampeonatoGeral();
+        }
+
         public List<Noticia> Noticias()
         {
             CampeonatoRepositorioADO campADO = new CampeonatoRepositorioADO();
