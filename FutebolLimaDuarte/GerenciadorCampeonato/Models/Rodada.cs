@@ -27,7 +27,7 @@ namespace GerenciadorCampeonato.Models
             try
             {
                 List<Rodada> listRodada = new List<Rodada>();
-                Rodada rodada = new Rodada();
+             
                 int contatoRodada = 0;
                 //foreach (Partida objPartida in partidas)
                 //{
@@ -55,6 +55,7 @@ namespace GerenciadorCampeonato.Models
 
                 foreach (Partida objPartida in partidas)
                 {
+                    Rodada rodada = new Rodada();
                     if (contatoRodada == 0)
                     {
                         rodada.Numero = objPartida.Rodada;

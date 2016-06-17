@@ -198,26 +198,26 @@ namespace Campeonato.UI.WEB.Areas.Admin
         {
             List<Classificacao> listaClassificacao = (List<Classificacao>)appClassificacao.ListarClassicacaoPorCampeonato(id);
 
-            if (id.Equals("3"))
-            {
-                Classificacao classificacaoA = new Classificacao();
-                classificacaoA.Posicao = "";
-                classificacaoA.NomeTime = "GRUPO A";
-                classificacaoA.Pontos = "";
-                listaClassificacao.Insert(0, classificacaoA);
+            //if (id.Equals("3"))
+            //{
+            //    Classificacao classificacaoA = new Classificacao();
+            //    classificacaoA.Posicao = "";
+            //    classificacaoA.NomeTime = "GRUPO A";
+            //    classificacaoA.Pontos = "";
+            //    listaClassificacao.Insert(0, classificacaoA);
 
-                List<Classificacao> listaClassificacaoB = (List<Classificacao>)appClassificacao.ListarClassicacaoPorCampeonato("4");
-                Classificacao classificacao = new Classificacao();
-                classificacao.Posicao = "";
-                classificacao.NomeTime = "GRUPO B";
-                classificacao.Pontos = "";
-                listaClassificacao.Add(classificacao);
-                foreach (Classificacao b in listaClassificacaoB)
-                {
-                    listaClassificacao.Add(b);
-                }
+            //    List<Classificacao> listaClassificacaoB = (List<Classificacao>)appClassificacao.ListarClassicacaoPorCampeonato("4");
+            //    Classificacao classificacao = new Classificacao();
+            //    classificacao.Posicao = "";
+            //    classificacao.NomeTime = "GRUPO B";
+            //    classificacao.Pontos = "";
+            //    listaClassificacao.Add(classificacao);
+            //    foreach (Classificacao b in listaClassificacaoB)
+            //    {
+            //        listaClassificacao.Add(b);
+            //    }
 
-            }
+            //}
             Classificacao classificacao2 = new Classificacao();
             classificacao2.Posicao = " ";
             classificacao2.NomeTime = " ";
@@ -278,10 +278,10 @@ namespace Campeonato.UI.WEB.Areas.Admin
             return base.File(path, "image/jpg");
         }
 
-        public FileResult DownloadFutebolLD()
+        public FileResult Download()
         {
             byte[] fileBytes = System.IO.File.ReadAllBytes(Server.MapPath("/apk/apk.apk"));
-            string fileName = "FutebolLD.apk";
+            string fileName = "A_ibititec.apk";
             return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, fileName);
         }
 

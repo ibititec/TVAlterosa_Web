@@ -1,0 +1,2 @@
+00:49:49 - Erro - PartidaRepositorioADO::ListarProximaRodada:. Erro ao ListarProximaRodada: Object reference not set to an instance of an object.
+00:53:14 - Erro - PartidaRepositorioADO::ListarProximaRodada:. Erro ao ListarProximaRodada: Object reference not set to an instance of an object.

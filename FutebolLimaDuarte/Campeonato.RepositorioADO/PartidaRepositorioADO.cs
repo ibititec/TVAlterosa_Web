@@ -42,7 +42,7 @@ namespace Campeonato.RepositorioADO
             strQuery += string.Format(" data_partida = '{0}', ", Partida.DataPartida.ToString("yyyy-MM-ddTHH:mm:ss.fff"));
             strQuery += string.Format(" remarcada_partida = '{0}', ", Partida.Remarcada);
             strQuery += string.Format(" rodada = '{0}' ", Partida.Rodada);
-            strQuery += string.Format(" estadio = '{0}' ", Partida.Estadio);
+            strQuery += string.Format(", estadio = '{0}' ", Partida.Estadio.Trim());
             //strQuery += string.Format(" nova_data_partida = '{0}' ", Partida.DataPartidaRemarcada.ToString("yyyy-MM-ddTHH:mm:ss.fff"));
             strQuery += string.Format(" WHERE Id = {0} ", Partida.Id);
             using (contexto = new Contexto())
@@ -163,7 +163,7 @@ namespace Campeonato.RepositorioADO
                     TimeVisitante = reader["tv_nome"].ToString(),
                     EscudoPequenoMandante = (reader["tm_escudo"].ToString().Equals("") ? "Vazio.jpg" : reader["tm_escudo"].ToString()),
                     EscudoPequenoVisitante = (reader["tv_escudo"].ToString().Equals("") ? "Vazio.jpg" : reader["tv_escudo"].ToString()),
-                    Estadio = reader["estadio"].ToString(),
+                    Estadio = reader["estadio"].ToString().Trim(),
                     
 
 
@@ -567,6 +567,29 @@ namespace Campeonato.RepositorioADO
                                    "times tv on tv.id = p.id_time_visitante INNER JOIN " +
                                    "campeonato c on c.id = p.id_campeonato WHERE  CONVERT (char(10),data_partida, 103)  =   ( ");
                     strQuery += string.Format(" SELECT TOP 1  CONVERT (char(10),data_partida, 103) FROM partida WHERE data_partida > GETDATE() order by data_partida) ORDER BY data_partida");
+                    var retornoDataReader = contexto.ExecutaComandoComRetorno(strQuery);
+                    return TransformaReaderEmListaDeObjeto(retornoDataReader);
+                }
+            }
+            catch (Exception ex)
+            {
+                TratamentoLog.GravarLog("PartidaRepositorioADO::ListarProximaRodada:. Erro ao ListarProximaRodada: " + ex.Message, TratamentoLog.NivelLog.Erro);
+                return null;
+            }
+        }
+
+        public object ListarProximaRodadaPorNumero()
+        {
+            try
+            {
+                using (contexto = new Contexto())
+                {
+                    var strQuery = string.Format("SELECT p.*, tm.nome tm_nome, tm.escudo tm_escudo, tv.nome tv_nome, tv.escudo tv_escudo, c.nome nome_campeonato " +
+                                   "FROM partida p INNER JOIN " +
+                                   "times tm on tm.id = p.id_time_mandante INNER JOIN " +
+                                   "times tv on tv.id = p.id_time_visitante INNER JOIN " +
+                                   "campeonato c on c.id = p.id_campeonato WHERE  p.rodada  =   ( ");
+                    strQuery += string.Format(" SELECT TOP 1  p.rodada  FROM partida p WHERE data_partida > GETDATE() order by data_partida) ORDER BY data_partida");
                     var retornoDataReader = contexto.ExecutaComandoComRetorno(strQuery);
                     return TransformaReaderEmListaDeObjeto(retornoDataReader);
                 }

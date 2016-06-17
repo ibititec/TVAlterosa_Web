@@ -101,7 +101,7 @@ namespace Campeonato.Aplicacao
         public IEnumerable<Partida> ListarProximaRodadaJson()
         {
             PartidaRepositorioADO partida = new PartidaRepositorioADO();
-            return (IEnumerable<Partida>) partida.ListarProximaRodada();
+            return (IEnumerable<Partida>)partida.ListarProximaRodadaPorNumero();
         }
 
         public IEnumerable<Partida> ListarProximaRodadaPorBolao(string id)
