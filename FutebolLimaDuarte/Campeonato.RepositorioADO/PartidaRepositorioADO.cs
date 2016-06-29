@@ -81,7 +81,7 @@ namespace Campeonato.RepositorioADO
                                "FROM partida p INNER JOIN " +
                                "times tm on tm.id = p.id_time_mandante INNER JOIN " +
                                "times tv on tv.id = p.id_time_visitante INNER JOIN " +
-                                   "campeonato c on c.id = p.id_campeonato  ORDER BY CAST(p.rodada AS INT)";
+                                   "campeonato c on c.id = p.id_campeonato  ORDER BY  data_partida";
                 var retornoDataReader = contexto.ExecutaComandoComRetorno(strQuery);
                 return TransformaReaderEmListaDeObjeto(retornoDataReader);
             }
@@ -520,7 +520,7 @@ namespace Campeonato.RepositorioADO
                                    "FROM partida p INNER JOIN " +
                                    "times tm on tm.id = p.id_time_mandante INNER JOIN " +
                                    "times tv on tv.id = p.id_time_visitante INNER JOIN " +
-                                   "campeonato c on c.id = p.id_campeonato where c.id = {0} ORDER BY CAST(p.rodada AS INT) ", id);
+                                   "campeonato c on c.id = p.id_campeonato where c.id = {0} ORDER BY  data_partida desc ", id);
                     var retornoDataReader = contexto.ExecutaComandoComRetorno(strQuery);
                     return TransformaReaderEmListaDeObjeto(retornoDataReader);
                 }

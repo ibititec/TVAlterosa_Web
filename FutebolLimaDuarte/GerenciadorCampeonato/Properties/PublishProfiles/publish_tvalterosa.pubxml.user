@@ -10,184 +10,184 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="Areas/Admin/Views/AdminHome/Logado.cshtml">
-      <publishTime>03/06/2016 14:15:01</publishTime>
+      <publishTime>06/03/2016 14:15:01</publishTime>
     </File>
     <File Include="Areas/Admin/Views/AdminHome/LogadoVisitante.cshtml">
-      <publishTime>03/06/2016 14:15:01</publishTime>
+      <publishTime>06/03/2016 14:15:01</publishTime>
     </File>
     <File Include="Areas/Admin/Views/AdminHome/Login.cshtml">
-      <publishTime>03/06/2016 14:15:01</publishTime>
+      <publishTime>06/03/2016 14:15:01</publishTime>
     </File>
     <File Include="Areas/Admin/Views/AdminHome/LoginJSON.cshtml">
-      <publishTime>03/06/2016 14:15:01</publishTime>
+      <publishTime>06/03/2016 14:15:01</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Bolao/Cadastrar.cshtml">
-      <publishTime>03/06/2016 14:15:01</publishTime>
+      <publishTime>06/03/2016 14:15:01</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Bolao/Editar.cshtml">
-      <publishTime>03/06/2016 14:15:01</publishTime>
+      <publishTime>06/03/2016 14:15:01</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Bolao/Index.cshtml">
-      <publishTime>03/06/2016 14:15:01</publishTime>
+      <publishTime>06/03/2016 14:15:01</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Bolao/Palpite.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Bolao/Participar.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Bolao/PontuarBolao.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Bolao/Regras.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Bolao/VencedorRodada.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Campeonato/Cadastrar.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Campeonato/CampeoesPorCampeonato.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Campeonato/Classificacao.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Campeonato/Detalhes.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Campeonato/Editar.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Campeonato/EnviarMensagemGoogle.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Campeonato/Excluir.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Campeonato/Index.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Campeonato/SelecionarTimes.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Campeonato/TimesPorCampeonato.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Galeria/Cadastrar.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Galeria/Galeria.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Galeria/GaleriaBase.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Galeria/GaleriaVeteranos.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Galeria/Index.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Galeria/ListarFotosVideosParaEditar.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Galeria/PaginaInicial.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Jogador/Cadastrar.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Jogador/Detalhes.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Jogador/Editar.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Jogador/Excluir.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Jogador/Index.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Jogador/PaginaInicial.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Partida/Cadastrar.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Partida/Comentario.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Partida/ComentarPartidaOnline.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Partida/Detalhes.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Partida/Editar.cshtml">
       <publishTime>06/16/2016 21:46:56</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Partida/Excluir.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Partida/FotosVideos.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Partida/Index.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Partida/PaginaInicial.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Partida/Resultado.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Partida/Tabela.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Time/Cadastrar.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Time/Detalhes.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Time/Editar.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Time/Excluir.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Time/Index.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Time/ListarTimesCampeonato.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Usuario/Cadastrar.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Usuario/Index.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Web.config">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="Areas/Admin/Views/_ViewStart.cshtml">
-      <publishTime>03/06/2016 14:15:02</publishTime>
+      <publishTime>06/03/2016 14:15:02</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>06/13/2016 12:16:54</publishTime>
     </File>
     <File Include="bin/Campeonato.Aplicacao.dll">
-      <publishTime>06/19/2016 21:02:20</publishTime>
+      <publishTime>06/28/2016 23:31:37</publishTime>
     </File>
     <File Include="bin/Campeonato.Dominio.dll">
       <publishTime>06/13/2016 20:02:20</publishTime>
     </File>
     <File Include="bin/Campeonato.RepositorioADO.dll">
-      <publishTime>06/19/2016 21:01:18</publishTime>
+      <publishTime>06/28/2016 23:00:27</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>06/13/2016 12:16:56</publishTime>
@@ -196,7 +196,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/13/2016 12:16:56</publishTime>
     </File>
     <File Include="bin/GerenciadorCampeonato.dll">
-      <publishTime>06/19/2016 21:02:24</publishTime>
+      <publishTime>06/28/2016 23:31:45</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
       <publishTime>06/13/2016 12:16:54</publishTime>
@@ -268,277 +268,277 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/13/2016 12:16:55</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.min.css">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/AALD.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/Apagao.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/Bahia.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/CAETE.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/Cruzeiro.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/Esplanado.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/Final.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/Ipiranga.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/Juventude.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/Juventus.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/Laranjeira.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/Manejo.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/Minas.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/Orvalho.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/Perobas.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/Piuna.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/PocoPedra.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/POLEMICA.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/RosaGomes.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/santaterezinha.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/santoantonio.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/SaoDomingos.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/semifinal.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/Serab.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/Social.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/Vila.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/escudo/Vsgfc.jpg">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/facebook.png">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/glyphicons-halflings-white.png">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/glyphicons-halflings.png">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/icons/c_amarelo.png">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/icons/c_azul.png">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/icons/c_vermelho.png">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/images/icons/Gol.png">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="favicon.ico">
-      <publishTime>03/06/2016 14:15:06</publishTime>
+      <publishTime>06/03/2016 14:15:06</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
-      <publishTime>03/06/2016 14:15:06</publishTime>
+      <publishTime>06/03/2016 14:15:06</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.svg">
-      <publishTime>03/06/2016 14:15:06</publishTime>
+      <publishTime>06/03/2016 14:15:06</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>03/06/2016 14:15:06</publishTime>
+      <publishTime>06/03/2016 14:15:06</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
-      <publishTime>03/06/2016 14:15:06</publishTime>
+      <publishTime>06/03/2016 14:15:06</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>03/06/2016 14:15:03</publishTime>
+      <publishTime>06/03/2016 14:15:03</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>03/06/2016 14:15:06</publishTime>
+      <publishTime>06/03/2016 14:15:06</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
-      <publishTime>03/06/2016 14:15:04</publishTime>
+      <publishTime>06/03/2016 14:15:04</publishTime>
     </File>
     <File Include="Scripts/bootstrap.min.js">
-      <publishTime>03/06/2016 14:15:04</publishTime>
+      <publishTime>06/03/2016 14:15:04</publishTime>
     </File>
     <File Include="Scripts/jquery-1.9.1.min.map">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Scripts/jquery-2.1.1.js">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Scripts/jquery-2.1.1.min.js">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Scripts/jquery-2.1.1.min.map">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.js">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.min.js">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.js">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.min.js">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Scripts/modernizr-2.6.2.js">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Scripts/respond.js">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Scripts/respond.min.js">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Scripts/_references.js">
-      <publishTime>03/06/2016 14:15:04</publishTime>
+      <publishTime>06/03/2016 14:15:04</publishTime>
     </File>
     <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Account/ExternalLoginFailure.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Account/Login.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Account/Manage.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Account/Register.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Account/_ChangePasswordPartial.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Account/_RemoveAccountPartial.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Account/_SetPasswordPartial.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Home/Contact.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Pagina/AoVivo.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/PaginaAvulsa/AlimentarAntesPartida.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Shared/EditorTemplates/Color.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Shared/EditorTemplates/Date.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Shared/EditorTemplates/DateTime-Local.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Shared/EditorTemplates/DateTime.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Shared/EditorTemplates/EmailAddress.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Shared/EditorTemplates/Month.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Shared/EditorTemplates/Number.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Shared/EditorTemplates/PhoneNumber.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Shared/EditorTemplates/Search.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Shared/EditorTemplates/Time.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Shared/EditorTemplates/Url.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Shared/EditorTemplates/Week.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
-      <publishTime>03/06/2016 14:15:05</publishTime>
+      <publishTime>06/03/2016 14:15:05</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>03/06/2016 14:15:06</publishTime>
+      <publishTime>06/03/2016 14:15:06</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
-      <publishTime>03/06/2016 14:15:06</publishTime>
+      <publishTime>06/03/2016 14:15:06</publishTime>
     </File>
     <File Include="Views/Web.config">
-      <publishTime>03/06/2016 14:15:06</publishTime>
+      <publishTime>06/03/2016 14:15:06</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
-      <publishTime>03/06/2016 14:15:06</publishTime>
+      <publishTime>06/03/2016 14:15:06</publishTime>
     </File>
     <File Include="Web.config">
       <publishTime>06/14/2016 21:02:49</publishTime>

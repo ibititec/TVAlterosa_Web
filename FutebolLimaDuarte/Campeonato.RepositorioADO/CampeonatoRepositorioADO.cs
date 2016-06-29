@@ -84,17 +84,17 @@ namespace Campeonato.RepositorioADO
             while (reader.Read())
             {
                 int idBolao = 0;
-                if (!reader["id_bolao"].ToString().Equals(""))
-                {
-                    idBolao = Convert.ToInt16(reader["id_bolao"].ToString());
-                }
+                //if (reader["id_bolao"] != null && !reader["id_bolao"].ToString().Equals(""))
+                //{
+                //    idBolao = Convert.ToInt16(reader["id_bolao"].ToString());
+                //}
 
 
                 var temObjeto = new Campeonatos()
                 {
                     Id = Convert.ToInt32(reader["id"].ToString()),
                     Nome = reader["Nome"].ToString(),
-                    IdBola = idBolao,
+                    //IdBola = idBolao,
                     DataInicio = DateTime.Parse(reader["data_inicio"].ToString())
                 };
                 Campeonato.Add(temObjeto);
