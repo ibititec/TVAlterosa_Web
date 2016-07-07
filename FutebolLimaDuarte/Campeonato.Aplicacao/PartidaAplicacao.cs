@@ -19,6 +19,10 @@ namespace Campeonato.Aplicacao
             repositorio = repo;
         }
 
+        public PartidaAplicacao()
+        {            
+        }
+
         public void Salvar(Partida Partida)
         {
             repositorio.Salvar(Partida);
@@ -101,7 +105,7 @@ namespace Campeonato.Aplicacao
         public IEnumerable<Partida> ListarProximaRodadaJson()
         {
             PartidaRepositorioADO partida = new PartidaRepositorioADO();
-            return (IEnumerable<Partida>)partida.ListarProximaRodadaPorNumero();
+            return (IEnumerable<Partida>) partida.ListarProximaRodadaPorNumero();
         }
 
         public IEnumerable<Partida> ListarProximaRodadaPorBolao(string id)

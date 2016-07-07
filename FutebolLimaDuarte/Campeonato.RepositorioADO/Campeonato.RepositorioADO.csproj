@@ -48,15 +48,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AcessoRepositorioADO.cs" />
+    <Compile Include="ArtilhariaDAO.cs" />
     <Compile Include="BolaoRepositorioADO.cs" />
+    <Compile Include="CampeonatoDAO.cs" />
+    <Compile Include="Conexoes.cs" />
+    <Compile Include="NoticiaDAO.cs" />
+    <Compile Include="JogadorDAO.cs" />
     <Compile Include="NoticiaRepositorioADO.cs" />
     <Compile Include="CampeonatoRepositorioADO.cs" />
     <Compile Include="ClassificacaoRepositorioADO.cs" />
     <Compile Include="Contexto.cs" />
     <Compile Include="FotoVideoRepositorioADO.cs" />
     <Compile Include="JogadorRepositorioADO.cs" />
+    <Compile Include="PartidaDAO.cs" />
     <Compile Include="PartidaRepositorioADO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TimeDAO.cs" />
+    <Compile Include="TokenDAO.cs" />
     <Compile Include="UsuarioRepositorioADO.cs" />
     <Compile Include="TimeRepositorioADO.cs" />
   </ItemGroup>

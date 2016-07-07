@@ -138,7 +138,8 @@ namespace Campeonato.RepositorioADO
                 var strQuery = @" SELECT t.Nome Nome, ar.numero_gols Numero_Gols, tm.Nome Time  FROM artilharia ar
                                     INNER JOIN t_jogador t on (t.id = ar.id_jogador)
                                     INNER JOIN times tm on (tm.id = ar.id_time)
-                                    WHERE ar.id_campeonato = " + idCampeonato;
+                                    WHERE t.DATA_INATIVACAO IS NULL 
+                                          and ar.id_campeonato = " + idCampeonato;
                 if (idCampeonato.Equals("3"))
                 {
                     strQuery += @" OR ar.id_campeonato = 4";
@@ -157,7 +158,8 @@ namespace Campeonato.RepositorioADO
             {
                 var strQuery = @" SELECT t.Nome Nome, ar.numero_gols Numero_Gols, tm.Nome Time  FROM artilharia ar
                                     INNER JOIN t_jogador t on (t.id = ar.id_jogador)
-                                    INNER JOIN times tm on (tm.id = ar.id_time)";
+                                    INNER JOIN times tm on (tm.id = ar.id_time)
+                                        WHERE t.DATA_INATIVACAO IS NULL ";
                 strQuery += @" ORDER BY ar.numero_gols desc";
                 var retornoDataReader = contexto.ExecutaComandoComRetorno(strQuery);
                 return TransformaReaderEmListaDeObjetoArtilharia(retornoDataReader);

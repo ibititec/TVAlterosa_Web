@@ -35,6 +35,11 @@ namespace Campeonato.Aplicacao
             return repositorio.ListarTodos();
         }
 
+        public List<Jogador> ListarJogadores()
+        {
+            return (List<Jogador>)repositorio.ListarTodos();
+        }
+
         public void Excluir(Jogador jogador)
         {
             repositorio.Excluir(jogador);

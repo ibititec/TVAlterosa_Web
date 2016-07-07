@@ -70,7 +70,7 @@ namespace Campeonato.RepositorioADO
         {
             using (contexto = new Contexto())
             {
-                var strQuery = " SELECT * FROM noticia ";
+                var strQuery = " SELECT * FROM noticia where data_inativacao is null";
                 var retornoDataReader = contexto.ExecutaComandoComRetorno(strQuery);
                 return TransformaReaderEmListaDeObjeto(retornoDataReader);
             }
@@ -80,7 +80,7 @@ namespace Campeonato.RepositorioADO
         {
             using (contexto = new Contexto())
             {
-                var strQuery = string.Format(" SELECT * FROM noticia WHERE Id = {0} ", id);
+                var strQuery = string.Format(" SELECT * FROM noticia WHERE Id = {0} and data_inativacao is null", id);
                 var retornoDataReader = contexto.ExecutaComandoComRetorno(strQuery);
                 return TransformaReaderEmListaDeObjeto(retornoDataReader).FirstOrDefault();
             }

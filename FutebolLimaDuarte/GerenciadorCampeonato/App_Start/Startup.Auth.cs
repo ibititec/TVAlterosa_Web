@@ -15,6 +15,7 @@ namespace GerenciadorCampeonato
             {
                 AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie,
                 LoginPath = new PathString("/AdminHome/Login")
+                //LoginPath = new PathString("/Autenticacao/Login")
             });
             // Use a cookie to temporarily store information about a user logging in with a third party login provider
             app.UseExternalSignInCookie(DefaultAuthenticationTypes.ExternalCookie);
