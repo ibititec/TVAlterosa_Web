@@ -1,0 +1,58 @@
+﻿@using CORE.Componentes
+@using Kendo.Mvc.UI
+@using System.Web
+@model IEnumerable<Campeonato.Dominio.Classificacao>
+
+@{
+    ViewBag.Title = "Classificação";
+}
+
+@{
+    ViewBag.Title = "Classificação";
+    var breadCrumbs = new List<KeyValuePair<string, string>>();
+    breadCrumbs.Add(new KeyValuePair<string, string>("/AdminHome/Index", "Home"));
+    breadCrumbs.Add(new KeyValuePair<string, string>("#", ViewBag.Title));
+    ViewBag.Breadcrumbs = breadCrumbs;
+}
+
+<div class="row">
+    <div class="col-md-12">
+        @Html.MessageBoxes(TempData["successMessage"], Html.ValidationMessage(""))
+    </div>
+    <div class="col-md-12">
+        @(Html.KendoGrid<Campeonato.Dominio.Classificacao>("classificacaoGrid", true)
+                .Columns(columns =>
+                {
+                    columns.Bound(p => p.NomeTime).Title("Equipe").Width(200);
+                    columns.Bound(p => p.Pontos).Title("Pontos").Width(200);
+                    columns.Bound(p => p.Vitoria).Title("Vitorias").Width(200);
+                    columns.Bound(p => p.SaldoGol).Title("Saldo Gols").Width(200);
+                    columns.Bound(p => p.Derrota).Title("Derrota").Width(200);
+                    columns.Bound(p => p.Empate).Title("Empate").Width(200);
+                    columns.Bound(p => p.GolPro).Title("Gol Pro").Width(200);
+                    columns.Bound(p => p.GolContra).Title("Gol Contra").Width(200);
+                    columns.Bound(p => p.IdCampeonato).Title("Chave").Width(200);
+                })
+                        .Filterable(filtering => filtering.Enabled(false))
+                       .Pageable(i => i.PageSizes(new int[] { 25, 50, 100 }))   
+                .DataSource(dataSource =>
+               {
+                   dataSource
+                    .Ajax()
+                    .PageSize(50)
+                    .Sort(sort => sort.Add(p => p.IdCampeonato).Ascending())
+                    .Sort(sort => sort.Add(p => p.Pontos).Descending())
+                    .Sort(sort => sort.Add(p => p.Vitoria).Descending())
+                    .Sort(sort => sort.Add(p => p.SaldoGol).Descending())
+                    .Events(events => events.Error("error_handler").Sync("sync_handler").RequestEnd("onRequestEnd"))
+                    .Read(read => read.Action("ClassificacaoJson", "CampeonatoWeb"));
+               }))
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        hideErrorMessage();
+        hideSuccessMessage();
+    });
+</script>

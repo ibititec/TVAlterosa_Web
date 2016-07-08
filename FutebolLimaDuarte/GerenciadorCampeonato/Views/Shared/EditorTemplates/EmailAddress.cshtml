@@ -1,1 +1,3 @@
-﻿@Html.TextBox("", ViewData.TemplateInfo.FormattedModelValue, new { @class = "text-box single-line", type = "email" })
+﻿@model object 
+
+@Html.TextBoxFor(model => model, new {@class="k-textbox", type="email" })

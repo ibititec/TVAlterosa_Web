@@ -84,7 +84,7 @@ namespace GerenciadorCampeonato.Controllers
 
         }
 
-       
+
         public ActionResult Apagar([DataSourceRequest] DataSourceRequest request, Campeonato_Web item)
         {
             try
@@ -119,12 +119,14 @@ namespace GerenciadorCampeonato.Controllers
 
 
                 classificacao = appClassificacao.ListarClassificacao();
-                foreach(Classificacao clas in classificacao){
+                foreach (Classificacao clas in classificacao)
+                {
                     String Chave = listaTimesCampeonato.Where(a => a.StartsWith(clas.IdTime)).First();
                     clas.IdCampeonato = Chave.Split('_')[1];
                 }
+                DataSourceResult result = classificacao.ToDataSourceResult(request);
 
-                return Json(new[] { classificacao }.ToDataSourceResult(request, ModelState));
+                return Json(result);
             }
             catch (Exception ex)
             {

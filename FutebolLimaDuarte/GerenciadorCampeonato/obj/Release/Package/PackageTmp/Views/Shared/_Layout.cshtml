@@ -2,95 +2,171 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <link rel="shortcut icon" href="~/Content/images/icons/Gol.png">
-    <title>Futebol Lima Duarte</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
+    <meta name="MobileOptimized" content="320">
 
-    <script>
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
+    <link type="text/css" rel="stylesheet" href="~/Content/core/css/font-awesome.min.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/core/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/core/css/style-conquer.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/core/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/core/css/style-responsive.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/core/css/light.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/core/css/mission-gothic.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/core/css/core.css" />
 
-    <script>
-        (function (d, s, id) {
-            var ifr = document.getElementById('sm_frm1');
+    <link rel="icon" href="~/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="~/Content/kendo/2014.2.716/kendo.common.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/kendo/2014.2.716/kendo.dataviz.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/kendo/2014.2.716/kendo.bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/kendo/2014.2.716/kendo.dataviz.bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css" />
 
-            if (ifr) {
-                ifr.parentNode.removeChild(ifr);
-            }
-        });</script>
+    <script src="~/Content/core/js/respond.min.js"></script>
+    <script src="~/Content/core/js/excanvas.min.js"></script>
 
+    <script src="~/Scripts/kendo/2014.2.716/jquery.min.js"></script>
+    <script src="~/Scripts/kendo/2014.2.716/kendo.all.min.js"></script>
+    <script src="~/Scripts/kendo/2014.2.716/kendo.aspnetmvc.min.js"></script>
+    <script src="~/Scripts/kendo.modernizr.custom.js"></script>
+    <script src="~/Scripts/kendo/2014.2.716/cultures/kendo.culture.pt-BR.min.js"></script>
 
-    <!-- GOOGLE ANALITCS-->
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    <script src="~/Content/core/js/bootstrap.min.js"></script>
+    <script src="~/Content/core/js/jquery.slimscroll.min.js"></script>
+    <script src="~/Content/core/js/jquery.cokie.min.js"></script>
+    <script src="~/Content/core/js/app.js"></script>
 
-        ga('create', 'UA-50618625-1', 'futebollimaduarte.com');
-        ga('send', 'pageview');
+    <script src="@Url.Content("~/Scripts/portal.js")"></script>
+    <script>kendo.culture("pt-BR");</script>
 
-    </script>
-
+    @try
+    {
+        @Html.Partial("_Head")
+    }
+    catch { }
 
 </head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top" style="background-image: linear-gradient(green, green, #0B4917 60px)">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="color:white">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Futebol Lima Duarte", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse" style="color:white">
-                <ul class="nav navbar-nav">
-
-                    <li>@Html.ActionLink("Campeonato", "Index", "Campeonato", new { area = "Admin" }, htmlAttributes: new { id = "" })</li>
-                    <li>@Html.ActionLink("Fotos", "Index", "Galeria", new { area = "Admin" }, htmlAttributes: new { id = "" })</li>
-                    <li>@Html.ActionLink("Times", "Index", "Time", new { area = "Admin" }, htmlAttributes: new { id = "" })</li>
-                    <li>@Html.ActionLink("Bolão", "Index", "Bolao", new { area = "Admin" }, htmlAttributes: new { id = "" })</li>
-                    <li>@Html.ActionLink("Sobre", "About", "Home", new { area = "" },null)</li>
-
-                </ul>
-                @Html.Partial("_LoginPartial")
-            </div>
+<body class="page-header-fixed">
+    <div class="header navbar navbar-inverse navbar-fixed-top">
+        <div class="header-inner">
+            <a class="navbar-brand" href="/">
+                <img src="~/Content/core/img/copaalterosa_mini.png" alt="logo" />
+                <span class="app-title">
+                    @try
+                    {
+                        @Html.Partial("_Title")
+                    }
+                    catch
+                    {
+                        @:Sistema Copa Alterosa Sub-20
+                    }
+                </span>
+            </a>
+            <a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <img src="~/Content/core/img/menu-toggler.png" alt="" />
+            </a>
+            <ul class="nav navbar-nav pull-right">
+                <li class="dropdown user">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true" style="padding-top: 12px">
+                        <span class="glyphicon glyphicon-user" style="margin-right: 5px"></span>
+                        <span class="username">@User.Identity.Name</span>
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="/AdminHome/Logoff"><i class="fa fa-key"></i> Sair</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
     <br />
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-
-        @*<footer>
-            <p><a href="https://www.facebook.com/groups/602547396436819/#" target="_blank"><img src="~/Content/images/facebook.png" border="0" /></a>&nbsp;&nbsp; &copy; @DateTime.Now.Year - futebollimaduarte.com</p>
-
-            <!--COMPARTILHAR FACEBOOK-->
-            <div class="pull-left">
-                <div class="fb-like " data-href="http://futebollimaduarte.com/" data-width="100%" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+    <div class="clearfix"></div>
+    <div class="page-container">
+        <div class="page-sidebar-wrapper">
+            <div class="page-sidebar-wrapper">
+                <div class="page-sidebar navbar-collapse collapse">
+                    <ul class="page-sidebar-menu">
+                        <li class="sidebar-toggler-wrapper">
+                            <div class="sidebar-toggler"></div>
+                            <div class="clearfix"></div>
+                        </li>
+                        @try
+                        {
+                            @Html.Partial("_Menu")
+                        }
+                        catch (Exception ex)
+                        {
+                            <li class="start">
+                                @Conquer.MenuTitle("Sistema Copa Alterosa Sub-20", "fa-home", Url.Action("Index", "AdminHome"))
+                            </li>
+                        }
+                    </ul>
+                </div>
             </div>
-            <!--COMENTARIO FACEBOOK-->
-            <div class="pagination-centered">
-                <div class="fb-comments" data-href="http://futebollimaduarte.com/" data-numposts="5" data-colorscheme="light"></div>
+        </div>
+        <div class="page-content-wrapper">
+            <div class="page-content-wrapper">
+                <div class="page-content">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="page-title">@ViewBag.Title &nbsp; <span style="font-size:16px;">@ViewBag.TitleComplement</span></div>
+                            @try
+                            {
+                                @Html.Partial("_Breadcrumb")
+                            }
+                            catch
+                            {
+                                <ul class="page-breadcrumb breadcrumb">
+                                    <li>
+                                        <i class="fa fa-home"></i>
+                                        <a href="/">Inicial</a>
+                                        <i class="fa fa-angle-right"></i>
+                                    </li>
+                                    <li>
+                                        <a href="#">@ViewBag.Title</a>
+                                    </li>
+                                </ul>
+                            }
+                            @RenderBody()
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-
-        </footer>*@
+        </div>
     </div>
+    <div class="footer">
+        <div class="footer-inner footer-copyright">Copa Alterosa</div>
+        <span class="label label-info label-version">
+            @try
+            {
+                @Html.Partial("_Version")
+            }
+            catch
+            {
+                @:1.0.0
+            }
+        </span>
+        <div class="footer-tools">
+            <span class="go-top">
+                <i class="fa fa-angle-up"></i>
+            </span>
+        </div>
+    </div>
+    <script>
 
+        $(function () {
+            App.init();
+            var action = $(".page-sidebar-menu a[href='" + window.location.pathname + "']");
+            $(action).closest("li").addClass("active");
+            $(action).closest(".sub-menu").css("display", "block");
+            $(action).closest(".page-sidebar-menu > li").addClass("open active");
+        });
+
+    </script>
     @RenderSection("scripts", required: false)
 </body>
 </html>
