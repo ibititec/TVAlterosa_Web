@@ -38,3 +38,6 @@ C:\Users\JOAOCELSON\Desktop\FutebolTVAlterosa\FutebolTVAlterosa\Campeonato.Domin
 C:\Users\JOAOCELSON\Desktop\FutebolTVAlterosa\FutebolTVAlterosa\Campeonato.Dominio\bin\Debug\System.Web.Mvc.xml
 C:\Users\JOAOCELSON\Desktop\FutebolTVAlterosa\FutebolTVAlterosa\Campeonato.Dominio\obj\Debug\Campeonato.Dominio.dll
 C:\Users\JOAOCELSON\Desktop\FutebolTVAlterosa\FutebolTVAlterosa\Campeonato.Dominio\obj\Debug\Campeonato.Dominio.pdb
+D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\bin\Debug\System.Web.Mvc.dll
+D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\bin\Debug\System.Web.Mvc.xml
+D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\obj\Debug\Campeonato.Dominio.csprojResolveAssemblyReference.cache
