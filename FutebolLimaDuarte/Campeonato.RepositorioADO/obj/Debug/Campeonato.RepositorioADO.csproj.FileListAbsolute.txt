@@ -64,3 +64,13 @@ C:\Users\JOAOCELSON\Desktop\FutebolTVAlterosa\FutebolTVAlterosa\Campeonato.Repos
 C:\Users\JOAOCELSON\Desktop\FutebolTVAlterosa\FutebolTVAlterosa\Campeonato.RepositorioADO\obj\Debug\Campeonato.RepositorioADO.pdb
 D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\bin\Debug\System.Web.Mvc.dll
 D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\bin\Debug\System.Web.Mvc.xml
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\bin\Debug\Campeonato.RepositorioADO.dll.config
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\bin\Debug\Campeonato.RepositorioADO.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\bin\Debug\Campeonato.RepositorioADO.pdb
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\bin\Debug\Campeonato.Dominio.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\bin\Debug\System.Web.Mvc.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\bin\Debug\Campeonato.Dominio.pdb
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\bin\Debug\System.Web.Mvc.xml
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\obj\Debug\Campeonato.RepositorioADO.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\obj\Debug\Campeonato.RepositorioADO.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.RepositorioADO\obj\Debug\Campeonato.RepositorioADO.pdb

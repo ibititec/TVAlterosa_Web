@@ -1,0 +1,1 @@
+20:44:33 - Info - PartidaRepositorioADO::ObterJogosQuartasVoltaJson:. Erro ao consultar tabela

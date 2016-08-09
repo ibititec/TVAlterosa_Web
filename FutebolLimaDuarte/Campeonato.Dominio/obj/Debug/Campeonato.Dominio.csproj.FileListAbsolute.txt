@@ -41,3 +41,9 @@ C:\Users\JOAOCELSON\Desktop\FutebolTVAlterosa\FutebolTVAlterosa\Campeonato.Domin
 D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\bin\Debug\System.Web.Mvc.dll
 D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\bin\Debug\System.Web.Mvc.xml
 D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\obj\Debug\Campeonato.Dominio.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\bin\Debug\Campeonato.Dominio.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\bin\Debug\Campeonato.Dominio.pdb
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\bin\Debug\System.Web.Mvc.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\bin\Debug\System.Web.Mvc.xml
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\obj\Debug\Campeonato.Dominio.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\obj\Debug\Campeonato.Dominio.pdb

@@ -60,6 +60,29 @@ namespace Campeonato.RepositorioADO
             }
         }
 
+        public List<Classificacao> ListarCampeoesGeral()
+        {
+            try
+            {
+
+                using (contexto = new Contexto())
+                {
+                    var strQuery = "SELECT TOP 8 POSICAO = Row_Number() Over(Order by c.pontos Desc,  c.vitoria,( c.gol_pro - c.gol_contra) desc), c.*,c.gol_pro - c.gol_contra as saldo_gols, tm.nome tm_nome, c.id_campeonato id_campeonato " +
+                                   "FROM classificacao c INNER JOIN " +
+                                   "Times tm on tm.id = c.id_time INNER JOIN " +
+                                   "Campeonato ca on ca.id = c.id_campeonato ";
+                    var retornoDataReader = contexto.ExecutaComandoComRetorno(strQuery);
+                    return TransformaReaderEmListaDeObjeto(retornoDataReader); //TransformaReaderEmListaDeObjeto(retornoDataReader);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                TratamentoLog.GravarLog("ClassificacaoRepositorioADO::ListarClassicacaoPorCampeonato:. Erro ao Listar Classificação por Usuario - " + ex.Message, TratamentoLog.NivelLog.Erro);
+                return null;
+            }
+        }
+
         private List<Campeoes> TransformaReaderEmListaDeObjetoCampeoes(SqlDataReader reader)
         {
             try

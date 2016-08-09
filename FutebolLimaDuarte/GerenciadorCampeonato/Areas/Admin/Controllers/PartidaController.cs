@@ -353,5 +353,21 @@ namespace Campeonato.UI.WEB.Areas.Admin
             return JsonConvert.SerializeObject(listaProximaRodada, Formatting.Indented);
 
         }
+
+        public String ObterJogosQuartasIdaJson()
+        {
+            Rodada rodada = new Rodada();
+            var listaProximaRodada = rodada.ConverterPartidasParaRodada(appPartida.ObterJogosQuartasIdaJson());
+            return JsonConvert.SerializeObject(listaProximaRodada, Formatting.Indented);
+
+        }
+
+        public String ObterJogosQuartasVoltaJson()
+        {
+            Rodada rodada = new Rodada();
+            var listaProximaRodada = rodada.ConverterPartidasParaRodada(appPartida.ObterJogosQuartasVoltaJson());
+            return JsonConvert.SerializeObject(listaProximaRodada, Formatting.Indented);
+
+        }
     }
 }

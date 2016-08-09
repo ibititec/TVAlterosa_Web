@@ -94,3 +94,34 @@ C:\WORKSPLACE_IBITITEC\TVAlterosa_Web_New\FutebolTVAlterosa\Campeonato.Business\
 C:\WORKSPLACE_IBITITEC\TVAlterosa_Web_New\FutebolTVAlterosa\Campeonato.Business\obj\Release\Campeonato.Business.csprojResolveAssemblyReference.cache
 C:\WORKSPLACE_IBITITEC\TVAlterosa_Web_New\FutebolTVAlterosa\Campeonato.Business\obj\Release\SGR.Domain.dll
 C:\WORKSPLACE_IBITITEC\TVAlterosa_Web_New\FutebolTVAlterosa\Campeonato.Business\obj\Release\SGR.Domain.pdb
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\SGR.Domain.dll.config
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\SGR.Domain.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\SGR.Domain.pdb
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\Campeonato.Dominio.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\Campeonato.RepositorioADO.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\Elmah.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\NuGet.Configuration.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\Campeonato.Dominio.pdb
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\Campeonato.RepositorioADO.pdb
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\Kendo.Mvc.xml
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\NuGet.Configuration.xml
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\bg-BG\Kendo.Mvc.resources.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\cs-CZ\Kendo.Mvc.resources.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\da-DK\Kendo.Mvc.resources.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\de-DE\Kendo.Mvc.resources.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\es-ES\Kendo.Mvc.resources.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\fr-FR\Kendo.Mvc.resources.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\it-IT\Kendo.Mvc.resources.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\nl-NL\Kendo.Mvc.resources.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\pl-PL\Kendo.Mvc.resources.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\pt-BR\Kendo.Mvc.resources.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\pt-PT\Kendo.Mvc.resources.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\ro-RO\Kendo.Mvc.resources.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\ru-RU\Kendo.Mvc.resources.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\sv-SE\Kendo.Mvc.resources.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\tr-TR\Kendo.Mvc.resources.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\uk-UA\Kendo.Mvc.resources.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\bin\Release\zh-CN\Kendo.Mvc.resources.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\obj\Release\Campeonato.Business.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\obj\Release\SGR.Domain.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Business\obj\Release\SGR.Domain.pdb

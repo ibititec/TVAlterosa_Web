@@ -1,4 +1,4 @@
--- GeraÁ„o de Modelo fÌsico
+-- GeraÔøΩÔøΩo de Modelo fÔøΩsico
 -- Sql ANSI 2003 - brModelo.
 CREATE DATABASE CAMPEONATOLD;
 
@@ -74,7 +74,7 @@ nome nVarchar(100),
 FOREIGN KEY(id_bolao) REFERENCES t_bolao_campeonato (id)
 )
 
-alter table campeonato 
+alter table campeonato
 add  id_bolao int
 FOREIGN KEY(id_bolao) REFERENCES t_bolao_campeonato (id);
 
@@ -126,7 +126,7 @@ INSERT INTO usuario (nome_usuario, email_usuario, senha_usuario, tipo_usuario)
             values ('JOAOCELSON', 'joaocelson@gmail.com', 'ibititec', 1);
 
 --INSERT T_BOLAO_CAMPEONATO
-INSERT INTO T_BOLAO_CAMPEONATO (nome) VALUES ('1™ Divis„o');
+INSERT INTO T_BOLAO_CAMPEONATO (nome) VALUES ('1ÔøΩ DivisÔøΩo');
 
 --INSERT INTO CAMPEONATO
 SELECT * FROM campeonato;
@@ -151,22 +151,22 @@ SELECT * FROM times;
 
 -- CHAVE A
 INSERT INTO times (nome, escudo, descricao, presidente, data_fundacao, telefone)
-VALUES ('SeleÁ„o de Dores de Campos', 'DoresCampo.png', '','', '20000704 00:00:00 AM', '');
+VALUES ('SeleÔøΩÔøΩo de Dores de Campos', 'DoresCampo.png', '','', '20000704 00:00:00 AM', '');
 INSERT INTO times (nome, escudo, descricao, presidente, data_fundacao, telefone)
-VALUES ('Verd„o de Tabuleiro', 'VerdaoTabuleiro.png', '','', '20000704 00:00:00 AM', '');
+VALUES ('VerdÔøΩo de Tabuleiro', 'VerdaoTabuleiro.png', '','', '20000704 00:00:00 AM', '');
 INSERT INTO times (nome, escudo, descricao, presidente, data_fundacao, telefone)
 VALUES ('Champion de Rio Pomba', 'ChampionRioPomba.png', '','', '20000704 00:00:00 AM', '');
 INSERT INTO times (nome, escudo, descricao, presidente, data_fundacao, telefone)
-VALUES ('SeleÁ„o de MercÍs', 'SelecaoMercece.png', '','', '20000704 00:00:00 AM', '');
+VALUES ('SeleÔøΩÔøΩo de MercÔøΩs', 'SelecaoMercece.png', '','', '20000704 00:00:00 AM', '');
 
 -- CHAVE B
 
 INSERT INTO times (nome, escudo, descricao, presidente, data_fundacao, telefone)
-VALUES ('PÈrolas Negra do Haiti', 'PerolasHaiti.png', '','', '20000704 00:00:00 AM', '');
+VALUES ('PÔøΩrolas Negra do Haiti', 'PerolasHaiti.png', '','', '20000704 00:00:00 AM', '');
 INSERT INTO times (nome, escudo, descricao, presidente, data_fundacao, telefone)
 VALUES ('Sport de juiz de Fora', 'SportJuizFora.png', '','', '20000704 00:00:00 AM', '');
 INSERT INTO times (nome, escudo, descricao, presidente, data_fundacao, telefone)
-VALUES ('SeleÁ„o de Belmiro Braga', 'SelecaoBelmiroBraga.png', '','', '20000704 00:00:00 AM', '');
+VALUES ('SeleÔøΩÔøΩo de Belmiro Braga', 'SelecaoBelmiroBraga.png', '','', '20000704 00:00:00 AM', '');
 INSERT INTO times (nome, escudo, descricao, presidente, data_fundacao, telefone)
 VALUES ('Santanense de Santa do Deserto', 'SantanenseSantaDeserto.png', '','', '20000704 00:00:00 AM', '');
 
@@ -174,19 +174,19 @@ VALUES ('Santanense de Santa do Deserto', 'SantanenseSantaDeserto.png', '','', '
 INSERT INTO times (nome, escudo, descricao, presidente, data_fundacao, telefone)
 VALUES ('XV de Novembro de Rio Novo', 'XVNovembroRioNovo.png', '','', '20000704 00:00:00 AM', '');
 INSERT INTO times (nome, escudo, descricao, presidente, data_fundacao, telefone)
-VALUES ('AymorÈs de Ub·', 'AymoresUba.png', '','', '20000704 00:00:00 AM', '');
+VALUES ('AymorÔøΩs de UbÔøΩ', 'AymoresUba.png', '','', '20000704 00:00:00 AM', '');
 INSERT INTO times (nome, escudo, descricao, presidente, data_fundacao, telefone)
-VALUES ('TibÈrio de Guarani', 'TiberioGuarani.png', '','', '20000704 00:00:00 AM', '');
+VALUES ('TibÔøΩrio de Guarani', 'TiberioGuarani.png', '','', '20000704 00:00:00 AM', '');
 INSERT INTO times (nome, escudo, descricao, presidente, data_fundacao, telefone)
 VALUES ('Prainha de Rio Novo', 'PrainhaRioNovo.png', '','', '20000704 00:00:00 AM', '');
 
 -- CHAVE D
 INSERT INTO times (nome, escudo, descricao, presidente, data_fundacao, telefone)
-VALUES ('N˙cleo S„o Jo„o Nepomuceno', 'N˙cleoSJoaoNepomuceno.png', '','', '20000704 00:00:00 AM', '');
+VALUES ('NÔøΩcleo SÔøΩo JoÔøΩo Nepomuceno', 'NÔøΩcleoSJoaoNepomuceno.png', '','', '20000704 00:00:00 AM', '');
 INSERT INTO times (nome, escudo, descricao, presidente, data_fundacao, telefone)
 VALUES ('Aymores de Coronel Pacheco', 'AymoresCoronelPacheco.png', '','', '20000704 00:00:00 AM', '');
 INSERT INTO times (nome, escudo, descricao, presidente, data_fundacao, telefone)
-VALUES ('SeleÁ„o de Descoberto', 'SelecaoDescoberto.png', '','', '20000704 00:00:00 AM', '');
+VALUES ('SeleÔøΩÔøΩo de Descoberto', 'SelecaoDescoberto.png', '','', '20000704 00:00:00 AM', '');
 INSERT INTO times (nome, escudo, descricao, presidente, data_fundacao, telefone)
 VALUES ('Tupi de Juiz de Fora', 'TupiJuizFora.png', '','', '20000704 00:00:00 AM', '');
 
@@ -243,13 +243,36 @@ VALUES (4,9);
 INSERT INTO time_campeonato (id_campeonato, id_time)
 VALUES (4,10);
 
-
+1	Sete de Setembro EC
+2	Verd√£o EC
+3	Champion FC
+4	Sel. de Merc√™s
+5	P√©rolas Negras
+6	Sport Club JF
+7	Tupi FC
+8	Sel. Belmiro Braga
+9	15 de Novembro FC
+10	SC Aymor√©s
+11	Tib√©rio FC
+12	Prainha FC
+13	N√∫cleo Esportivo
+14	Sel. Coronel Pacheco
+15	Descoberto MC
+16	Rochedo EC
 --INSERT PARTIDAS
 
-INSERT INTO partida (id_campeonato,data_partida, id_time_mandante, id_time_visitante, local_partida, rodada) VALUES (2,'20160508 01:00:00 PM',4,7,'AALD','1');
-INSERT INTO partida (id_campeonato,data_partida, id_time_mandante, id_time_visitante, local_partida, rodada) VALUES (2,'20160515 01:00:00 PM',11,8,'MINAS','2');
-INSERT INTO partida (id_campeonato,data_partida, id_time_mandante, id_time_visitante, local_partida, rodada) VALUES (2,'20160522 01:00:00 PM',8,4,'SOCIAL','3');
-INSERT INTO partida (id_campeonato,data_partida, id_time_mandante, id_time_visitante, local_partida, rodada) VALUES (2,'20160529 01:00:00 PM',6,5,'SANTA TEREZINHA','4');
+INSERT INTO partida (id_campeonato,data_partida, id_time_mandante, id_time_visitante, local_partida, rodada) VALUES (2,'20160508 01:00:00 PM',11,5,'GUARANI','7');
+INSERT INTO partida (id_campeonato,data_partida, id_time_mandante, id_time_visitante, local_partida, rodada) VALUES (2,'20160515 01:00:00 PM',13,14,'S√ÉO JO√ÉO NEPOMUCENO','7');
+INSERT INTO partida (id_campeonato,data_partida, id_time_mandante, id_time_visitante, local_partida, rodada) VALUES (2,'20160522 01:00:00 PM',7,3,'JUIZ DE FORA','7');
+INSERT INTO partida (id_campeonato,data_partida, id_time_mandante, id_time_visitante, local_partida, rodada) VALUES (2,'20160529 01:00:00 PM',1,10,'DORES DE CAMPO','7');
+
+INSERT INTO partida (id_campeonato,data_partida, id_time_mandante, id_time_visitante, local_partida, rodada) VALUES (2,'20160508 01:00:00 PM',5,11,'MIGUEL PEREIRA','8');
+INSERT INTO partida (id_campeonato,data_partida, id_time_mandante, id_time_visitante, local_partida, rodada) VALUES (2,'20160515 01:00:00 PM',14,13,'MATIAS BARBOSA','8');
+INSERT INTO partida (id_campeonato,data_partida, id_time_mandante, id_time_visitante, local_partida, rodada) VALUES (2,'20160522 01:00:00 PM',3,7,'UB√Å','8');
+INSERT INTO partida (id_campeonato,data_partida, id_time_mandante, id_time_visitante, local_partida, rodada) VALUES (2,'20160529 01:00:00 PM',10,1,'RIO POMBA','8');
+
+
+
 INSERT INTO partida (id_campeonato,data_partida, id_time_mandante, id_time_visitante, local_partida, rodada) VALUES (2,'20160605 01:00:00 PM',8,5,'CRUZEIRO','5');
 INSERT INTO partida (id_campeonato,data_partida, id_time_mandante, id_time_visitante, local_partida, rodada) VALUES (2,'20160612 01:00:00 PM',3,7,'VILA','6');
 INSERT INTO partida (id_campeonato,data_partida, id_time_mandante, id_time_visitante, local_partida, rodada) VALUES (2,'20160619 01:00:00 PM',4,3,'MINAS','7');

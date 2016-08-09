@@ -116,6 +116,50 @@ namespace Campeonato.RepositorioADO
 
         }
 
+        public IEnumerable<Partida> ObterJogosQuartasVoltaJson()
+        {
+            try
+            {
+                using (contexto = new Contexto())
+                {
+                    var strQuery = string.Format("SELECT p.*, tm.nome tm_nome, tm.escudo tm_escudo, tv.nome tv_nome, tv.escudo tv_escudo " +
+                                   "FROM partida p INNER JOIN " +
+                                   "times tm on tm.id = p.id_time_mandante INNER JOIN " +
+                                   "times tv on tv.id = p.id_time_visitante " +
+                                   "where p.rodada = {0} ORDER BY  p.data_partida desc ", 8);
+                    var retornoDataReader = contexto.ExecutaComandoComRetorno(strQuery);
+                    return TransformaReaderEmListaDeObjeto(retornoDataReader);
+                }
+            }
+            catch (Exception ex)
+            {
+                TratamentoLog.GravarLog("PartidaRepositorioADO::ObterJogosQuartasVoltaJson:. Erro ao consultar tabela");
+                return null;
+            }
+        }
+
+        public IEnumerable<Partida> ObterJogosQuartasIdaJson()
+        {
+            try
+            {
+                using (contexto = new Contexto())
+                {
+                    var strQuery = string.Format("SELECT p.*, tm.nome tm_nome, tm.escudo tm_escudo, tv.nome tv_nome, tv.escudo tv_escudo " +
+                                   "FROM partida p INNER JOIN " +
+                                   "times tm on tm.id = p.id_time_mandante INNER JOIN " +
+                                   "times tv on tv.id = p.id_time_visitante " +
+                                   "where p.rodada = {0} ORDER BY  p.data_partida desc ", 7);
+                    var retornoDataReader = contexto.ExecutaComandoComRetorno(strQuery);
+                    return TransformaReaderEmListaDeObjeto(retornoDataReader);
+                }
+            }
+            catch (Exception ex)
+            {
+                TratamentoLog.GravarLog("PartidaRepositorioADO::ObterJogosQuartasIdaJson:. Erro ao consultar tabela");
+                return null;
+            }
+        }
+
         private List<Partida> TransformaReaderEmListaDeObjeto(SqlDataReader reader)
         {
             FotoVideoRepositorioADO fotoVideo = new FotoVideoRepositorioADO();

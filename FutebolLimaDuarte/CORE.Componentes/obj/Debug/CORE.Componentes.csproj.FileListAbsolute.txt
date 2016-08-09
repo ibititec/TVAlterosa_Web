@@ -125,3 +125,26 @@ D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\pt-b
 D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\obj\Debug\CORE.Componentes.csprojResolveAssemblyReference.cache
 D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\obj\Debug\CORE.Componentes.dll
 D:\Git_Ibititec\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\obj\Debug\CORE.Componentes.pdb
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\CORE.Componentes.dll.config
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\CORE.Componentes.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\CORE.Componentes.pdb
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\Elmah.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\Microsoft.Web.Infrastructure.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\NuGet.Configuration.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\System.Web.Helpers.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\System.Web.Mvc.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\System.Web.Razor.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\System.Web.WebPages.Deployment.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\System.Web.WebPages.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\System.Web.WebPages.Razor.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\NuGet.Configuration.xml
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\System.Web.Helpers.xml
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\System.Web.Mvc.xml
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\System.Web.Razor.xml
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\System.Web.WebPages.xml
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\System.Web.WebPages.Deployment.xml
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\System.Web.WebPages.Razor.xml
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\bin\Debug\pt-br\System.Web.Mvc.resources.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\obj\Debug\CORE.Componentes.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\obj\Debug\CORE.Componentes.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\CORE.Componentes\obj\Debug\CORE.Componentes.pdb

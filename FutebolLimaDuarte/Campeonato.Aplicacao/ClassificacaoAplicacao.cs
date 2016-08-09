@@ -63,6 +63,10 @@ namespace Campeonato.Aplicacao
             return classificacaoADO.ListarCampeoesPorCampeonato(id);
         }
 
-        
+        public List<Classificacao> ListarClassicacaoGeral()
+        {
+            ClassificacaoRepositorioADO classificacaoADO = new ClassificacaoRepositorioADO();
+            return classificacaoADO.ListarCampeoesGeral();
+        }
     }
 }

@@ -24,3 +24,10 @@ C:\WORKSPLACE_IBITITEC\TVAlterosa_Web_New\FutebolTVAlterosa\Campeonato.Dominio\b
 C:\WORKSPLACE_IBITITEC\TVAlterosa_Web_New\FutebolTVAlterosa\Campeonato.Dominio\obj\Release\Campeonato.Dominio.csprojResolveAssemblyReference.cache
 C:\WORKSPLACE_IBITITEC\TVAlterosa_Web_New\FutebolTVAlterosa\Campeonato.Dominio\obj\Release\Campeonato.Dominio.dll
 C:\WORKSPLACE_IBITITEC\TVAlterosa_Web_New\FutebolTVAlterosa\Campeonato.Dominio\obj\Release\Campeonato.Dominio.pdb
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\bin\Release\Campeonato.Dominio.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\bin\Release\Campeonato.Dominio.pdb
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\bin\Release\System.Web.Mvc.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\bin\Release\System.Web.Mvc.xml
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\obj\Release\Campeonato.Dominio.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\obj\Release\Campeonato.Dominio.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Dominio\obj\Release\Campeonato.Dominio.pdb

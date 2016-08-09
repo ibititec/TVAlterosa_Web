@@ -49,3 +49,14 @@ C:\WORKSPLACE_IBITITEC\TVAlterosa_Web_New\FutebolTVAlterosa\Campeonato.Aplicacao
 C:\WORKSPLACE_IBITITEC\TVAlterosa_Web_New\FutebolTVAlterosa\Campeonato.Aplicacao\obj\Release\Campeonato.Aplicacao.csprojResolveAssemblyReference.cache
 C:\WORKSPLACE_IBITITEC\TVAlterosa_Web_New\FutebolTVAlterosa\Campeonato.Aplicacao\obj\Release\Campeonato.Aplicacao.dll
 C:\WORKSPLACE_IBITITEC\TVAlterosa_Web_New\FutebolTVAlterosa\Campeonato.Aplicacao\obj\Release\Campeonato.Aplicacao.pdb
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Aplicacao\bin\Release\Campeonato.Aplicacao.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Aplicacao\bin\Release\Campeonato.Aplicacao.pdb
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Aplicacao\bin\Release\Campeonato.Dominio.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Aplicacao\bin\Release\Campeonato.RepositorioADO.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Aplicacao\bin\Release\System.Web.Mvc.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Aplicacao\bin\Release\Campeonato.Dominio.pdb
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Aplicacao\bin\Release\Campeonato.RepositorioADO.pdb
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Aplicacao\bin\Release\System.Web.Mvc.xml
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Aplicacao\obj\Release\Campeonato.Aplicacao.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Aplicacao\obj\Release\Campeonato.Aplicacao.dll
+\\vmware-host\Shared Folders\joaocelson\Documents\GitHub\TVAlterosa_Web\FutebolLimaDuarte\Campeonato.Aplicacao\obj\Release\Campeonato.Aplicacao.pdb

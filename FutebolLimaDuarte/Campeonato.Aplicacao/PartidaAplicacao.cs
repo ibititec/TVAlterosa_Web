@@ -145,6 +145,16 @@ namespace Campeonato.Aplicacao
             return partida.PartidaAoVivo(id);
         }
 
-        
+        public IEnumerable<Partida> ObterJogosQuartasIdaJson()
+        {
+            PartidaRepositorioADO partida = new PartidaRepositorioADO();
+            return partida.ObterJogosQuartasIdaJson();
+        }
+
+        public IEnumerable<Partida> ObterJogosQuartasVoltaJson()
+        {
+            PartidaRepositorioADO partida = new PartidaRepositorioADO();
+            return partida.ObterJogosQuartasVoltaJson();
+        }
     }
 }
