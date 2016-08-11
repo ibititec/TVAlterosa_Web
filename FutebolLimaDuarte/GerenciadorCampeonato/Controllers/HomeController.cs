@@ -34,7 +34,7 @@ namespace Campeonato.UI.WEB.Controllers
             if (!string.IsNullOrEmpty(User.Identity.Name))
                 return View("~/Views/Home/EnviarMensagem.cshtml", msg);
             else
-                return View("~/Views/AdminHome/Login.cshtml");            
+                return View("~/Views/AdminHome/Login.cshtml");
         }
 
         public HomeController()
@@ -113,14 +113,15 @@ namespace Campeonato.UI.WEB.Controllers
         public String EnviarMensagemGoogleCloud(String message, String tickerText, String contentTitle)
         {
             try
-            {                
+            {
                 string deviceId;
                 String response = "";
                 //Token[] tokens = db.Tokens.ToArray();
                 List<Token_Web> tokens = tokenBusiness.ObterToken();
-
+                int contador= 0;
                 foreach (Token_Web str in tokens)
                 {
+                    contador++;
                     if (str.TokenStr != null && !str.TokenStr.Equals(""))
                     {
                         deviceId = str.TokenStr.Trim();
@@ -129,8 +130,9 @@ namespace Campeonato.UI.WEB.Controllers
                           "\"data\": {\"tickerText\":\"" + tickerText + "\", " +
                                      "\"contentTitle\":\"" + contentTitle + "\", " +
                                      "\"message\": \"" + message + "\"}}";
-                        
+
                         response = SendNotification(deviceId, postData);
+                        Console.Write("Contador: " + contador + "Resosta Envio" + response);
                     }
                 }
                 return response;
@@ -208,6 +210,6 @@ namespace Campeonato.UI.WEB.Controllers
         //        return "";
         //    }
         //}
-       
+
     }
 }
